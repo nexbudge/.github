@@ -109,7 +109,7 @@ Tu veux poser une question, suggérer une amélioration ou juste dire bonjour ?
 
 ## 🧠 À propos du projet
 
-Ce projet a été conçu dans le cadre d’une **formation full-stack Python** au **Technofutur TIC**, en Belgique.
+Ce projet a été conçu dans le cadre d’une **formation full-stack Python** à **Technofutur TIC**, en Belgique, avant de se poursuivre et s’enrichir dans le contexte d’une installation en **Suisse**, pour y poursuivre une carrière dans les technologies web et cloud.
 
 Il a été imaginé, structuré et développé par **Alexandre Lison** (*alias Laxe4k*) pour :
 
