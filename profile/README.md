@@ -51,13 +51,13 @@ Tu peux créer un compte, y associer ton entreprise ou utiliser un mode démo. E
 
 ## 🧱 Technologies utilisées (stack technique)
 
-| Élément          | Technologie choisie            | Pourquoi ?                                       |
-| ---------------- | ------------------------------ | ------------------------------------------------ |
-| Frontend         | Angular                        | Framework moderne pour créer une PWA interactive |
-| Backend          | Django + Django REST Framework | Puissant, structuré, sécurisé                    |
-| Base de données  | MariaDB                        | Rapide, compatible SQL, facile à maintenir       |
-| Authentification | JWT ou sessions sécurisées     | Adapté à une API REST + front Angular            |
-| Déploiement      | Docker + hébergement HTTPS     | Pour une mise en ligne stable et sécurisée       |
+| Élément          | Technologie choisie             | Pourquoi ?                                                 |
+| ---------------- | ------------------------------- | ---------------------------------------------------------- |
+| Frontend         | Angular                         | Framework moderne pour créer une PWA interactive           |
+| Backend          | Django + Django REST Framework  | Puissant, structuré, sécurisé                              |
+| Base de données  | MariaDB                         | Rapide, compatible SQL, facile à maintenir                 |
+| Authentification | JWT ou sessions sécurisées      | Adapté à une API REST + front Angular                      |
+| Déploiement      | Docker + Jelastic Cloud (HTTPS) | Conteneurisation moderne, hébergement flexible et sécurisé |
 
 > 🔐 Tout est pensé pour la **sécurité**, la **clarté**, et la **maintenabilité** du code.
 
@@ -89,7 +89,7 @@ CREATE TABLE user (
 ## 🌍 Déploiement prévu
 
 * **Frontend** hébergé sur [Infomaniak Managed Hosting](https://www.infomaniak.com/fr/hebergement-web) ou à défaut sur Vercel/Netlify
-* **Backend API** conteneurisé via Docker, avec configuration HTTPS
+* **Backend API** conteneurisé via Docker et déployé dans un **Jelastic Cloud**, avec configuration HTTPS
 * **Base de données MariaDB** sur Infomaniak DBaaS ou serveur dédié sécurisé
 * **Application PWA** installable sur mobile ou PC
 * **Fonctionnalité d’export PDF** intégrée dans l’interface
